@@ -643,6 +643,13 @@ progress {
   margin-left: auto;
 }
 
+.contact-bg {
+   background-image: url(../assets/img/bg.jpg);
+   background-repeat: no-repeat; 
+   background-position: center bottom; 
+   background-size: 100%;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
