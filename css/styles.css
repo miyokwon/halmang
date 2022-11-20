@@ -7827,6 +7827,11 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-primary-opacity {
+  --bs-bg-opacity: 0.3;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -11523,4 +11528,13 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+
+.masthead_bg_img {
+  background-image: url(../assets/img/masthead_bg.jpg);
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  background-size: cover;
+  background-attachment:fixed;
 }
