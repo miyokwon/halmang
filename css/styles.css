@@ -3060,8 +3060,10 @@ textarea.form-control-lg {
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #15967d;
-  border-color: #148d75;
+  background-color: #fff;
+  border-color: #0D5C9F;
+  color: #0D5C9F;
+
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
@@ -3179,9 +3181,12 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
 }
 .btn-check:checked + .btn-warning, .btn-check:active + .btn-warning, .btn-warning:active, .btn-warning.active, .show > .btn-warning.dropdown-toggle {
-  color: #000;
+ /* color: #000;
   background-color: #ffcd39;
-  border-color: #ffc720;
+  border-color: #ffc720;*/
+  background-color: #fff;
+  border-color: #ffc107;
+  color: #ffca2c;
 }
 .btn-check:checked + .btn-warning:focus, .btn-check:active + .btn-warning:focus, .btn-warning:active:focus, .btn-warning.active:focus, .show > .btn-warning.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
@@ -11546,4 +11551,4 @@ html {
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 .nanumgothic {
   font-family: 'Nanum Gothic', sans-serif;
-}
+} 
