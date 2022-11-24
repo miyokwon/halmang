@@ -646,11 +646,23 @@ progress {
 }
 
 .contact-bg {
-   background-image: url(../assets/img/bg.jpg);
    background-repeat: no-repeat; 
-   background-position: center bottom; 
-   background-size: 100%;
+   background-position: left top; 
+/*  background-repeat: no-repeat; 
+  background-position: center bottom; 
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;*/
 }
+.contact-bg a {
+  margin-top: 10px;
+}
+@media (max-width: 1200px) {
+  .contact-bg a {
+  }
+}
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -11544,8 +11556,11 @@ html {
   background-image: url(../assets/img/masthead_bg.jpg);
   background-repeat: no-repeat; 
   background-position: center center; 
-  background-size: cover;
   background-attachment:fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
 }
 
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
