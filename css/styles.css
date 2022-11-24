@@ -11602,3 +11602,14 @@ html {
   }
 }
 
+@media (min-width: 1200px) {
+  #jeju-stamp img {
+    width: 20%;
+  }
+}
+@media (max-width: 1200px) {
+  #jeju-stamp img {
+    width: 45%;
+    margin-top: 20px;
+  }
+}
