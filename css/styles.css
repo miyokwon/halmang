@@ -11606,10 +11606,18 @@ html {
   #jeju-stamp img {
     width: 20%;
   }
+
+  #character p {
+    margin-top: 20%;
+  }
 }
 @media (max-width: 1200px) {
   #jeju-stamp img {
     width: 45%;
     margin-top: 20px;
+  }
+
+  #character p {
+    margin-top: 10%;
   }
 }
