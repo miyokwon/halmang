@@ -11556,8 +11556,7 @@ html {
   background-image: url(../assets/img/masthead_bg.jpg);
   background-repeat: no-repeat; 
   background-position: center center; 
-/*  background-attachment:fixed;*/
-  background-attachment: scroll;
+  background-attachment:fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
@@ -11583,6 +11582,10 @@ html {
     left:0;
     width:100%;
     height:100%;
+  }
+
+  .masthead_bg_img {
+    background-attachment: scroll;  
   }
 }
 
